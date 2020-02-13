@@ -1,5 +1,5 @@
 
-module Hacalc.Parser where
+module PatterntCommonFrontend.Parser where
 
 import Data.Either
 import Data.Maybe
@@ -8,10 +8,10 @@ import Data.List
 import Data.Char
 
 import PatternT.All
-import Hacalc.Types
-import Hacalc.UtilExternal
-import Hacalc.Parsing
-import Hacalc.Util
+import PatterntCommonFrontend.Types
+import PatterntCommonFrontend.UtilExternal
+import PatterntCommonFrontend.Parsing
+import PatterntCommonFrontend.Util
 
 import Debug.Trace
 

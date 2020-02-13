@@ -1,5 +1,5 @@
 
-module Hacalc.PatternT
+module PatterntCommonFrontend.PatternT
 	( module PatternT.All
 	) where
 

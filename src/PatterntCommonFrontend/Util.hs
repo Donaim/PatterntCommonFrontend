@@ -1,12 +1,12 @@
 
-module Hacalc.Util where
+module PatterntCommonFrontend.Util where
 
 import Data.Char
 import Data.Maybe (isJust)
 import PatternT.All
-import Hacalc.Types
-import Hacalc.UtilExternal
-import Hacalc.Display
+import PatterntCommonFrontend.Types
+import PatterntCommonFrontend.UtilExternal
+import PatterntCommonFrontend.Display
 
 -- | Simpliest working instance of PatternElement
 newtype StringyLeaf = MkStringyLeaf { unStringyLeaf :: String }

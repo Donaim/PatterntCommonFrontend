@@ -1,4 +1,4 @@
-module Hacalc.Parsing where
+module PatterntCommonFrontend.Parsing where
 
 import Data.List
 import Data.Maybe
@@ -8,8 +8,8 @@ import Control.Monad
 
 import PatternT.Types
 import PatternT.Util
-import Hacalc.Types
-import Hacalc.Util
+import PatterntCommonFrontend.Types
+import PatterntCommonFrontend.Util
 
 tokenize :: Bool -> String -> [Token]
 tokenize respectQuotes text = loop "" text

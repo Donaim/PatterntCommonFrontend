@@ -1,10 +1,10 @@
 
-module Hacalc.Display where
+module PatterntCommonFrontend.Display where
 
 import Data.List
 import PatternT.Types
 import PatternT.Util
-import Hacalc.Types
+import PatterntCommonFrontend.Types
 
 stringifyTree :: (PatternElement a) => Tree a -> String
 stringifyTree t = case t of
