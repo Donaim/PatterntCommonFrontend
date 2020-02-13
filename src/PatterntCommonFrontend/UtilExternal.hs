@@ -251,12 +251,6 @@ maybeIntegerToNonnegativeInt x =
 	then Nothing
 	else Just (fromInteger x)
 
-iRealDefaultPrecision :: Integer
-iRealDefaultPrecision = 2
-
-iRealDefaultPrecisionI :: Int
-iRealDefaultPrecisionI = fromIntegral iRealDefaultPrecision
-
 fst3 :: (a, b, c) -> a
 fst3 (a, b, c) = a
 
