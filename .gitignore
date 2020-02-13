@@ -1,3 +1,5 @@
 .stack-work/
 PatterntCommonFrontend.cabal
 *~
+stack.yaml.lock
+.*.swp
